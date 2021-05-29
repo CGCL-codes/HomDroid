@@ -56,8 +56,8 @@ After dividing the graph into the normal part and malicious part, we build the c
 7) To further verify whether these samples contain disguised behaviors or not, we conduct dynamic analysis to obtain accurate behaviors. Specifically, we use some state-of-the-art security tools (e.g., AppCritique) to generate detailed behavior reports, and then manually analyze these reports to check whether sensitive API calls invoked by malicious behaviors are used by normal behaviors at the same time. If there are many such cases, then we consider the malware to be covert. After in-depth manual analysis, we finally obtain 3,358 covert malware samples.
 
 # Publication
-YuemingWu, Deqing Zou,Wei Yang, Xiang Li, and Hai Jin. 2021. HomDroid:
+Yueming Wu, Deqing Zou, Wei Yang, Xiang Li, and Hai Jin. 2021. HomDroid:
 Detecting Android Covert Malware by Social-Network Homophily Analysis.
 In Proceedings of the 30th ACM SIGSOFT International Symposium on Software
-Testing and Analysis (ISSTA ’21), July 11–17, 2021, Virtual, Denmark. ACM,
+Testing and Analysis (ISSTA’21), July 11–17, 2021, Virtual, Denmark. ACM,
 New York, NY, USA, 13 pages. https://doi.org/10.1145/3460319.3464833
